@@ -3,10 +3,10 @@ disabled_rules:
 opt_in_rules:
   - empty_count
   - redundant_optional_initialization
-  - unused_declaration
 
 analyzer_rules:
   - explicit_self
+  - unused_declaration
 
 allow_zero_lintable_files: false
 
