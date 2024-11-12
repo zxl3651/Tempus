@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,15 +25,6 @@
 		71B902BC2C908E8C00CBB741 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C08E21D6FBDDB7A440B789A6 /* Pods_Tempus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tempus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		71EE88332CE24940004FE0BE /* Core */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Core; sourceTree = "<group>"; };
-		71EE88342CE2494C004FE0BE /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
-		71EE88352CE24962004FE0BE /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
-		71EE88382CE249FA004FE0BE /* Presentation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Presentation; sourceTree = "<group>"; };
-		71EE88392CE24A04004FE0BE /* Domain */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Domain; sourceTree = "<group>"; };
-		71EE883A2CE24A09004FE0BE /* Data */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Data; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		71B902AF2C908E8B00CBB741 /* Frameworks */ = {
@@ -78,12 +69,6 @@
 		71B902B42C908E8B00CBB741 /* Tempus */ = {
 			isa = PBXGroup;
 			children = (
-				71EE883A2CE24A09004FE0BE /* Data */,
-				71EE88392CE24A04004FE0BE /* Domain */,
-				71EE88382CE249FA004FE0BE /* Presentation */,
-				71EE88352CE24962004FE0BE /* Resources */,
-				71EE88342CE2494C004FE0BE /* Extensions */,
-				71EE88332CE24940004FE0BE /* Core */,
 				71B902B52C908E8B00CBB741 /* TempusApp.swift */,
 				71B902B72C908E8B00CBB741 /* ContentView.swift */,
 				71B902B92C908E8C00CBB741 /* Assets.xcassets */,
@@ -124,14 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				71EE88332CE24940004FE0BE /* Core */,
-				71EE88342CE2494C004FE0BE /* Extensions */,
-				71EE88352CE24962004FE0BE /* Resources */,
-				71EE88382CE249FA004FE0BE /* Presentation */,
-				71EE88392CE24A04004FE0BE /* Domain */,
-				71EE883A2CE24A09004FE0BE /* Data */,
 			);
 			name = Tempus;
 			productName = Tempus;
