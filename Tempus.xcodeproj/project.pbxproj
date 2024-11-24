@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34E9524B6FAA3B04002D2A98 /* Pods_Tempus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E7979526612DF7A8F14DB /* Pods_Tempus.framework */; };
 		71B902B62C908E8B00CBB741 /* TempusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B902B52C908E8B00CBB741 /* TempusApp.swift */; };
 		71B902B82C908E8B00CBB741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B902B72C908E8B00CBB741 /* ContentView.swift */; };
 		71B902BA2C908E8C00CBB741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B902B92C908E8C00CBB741 /* Assets.xcassets */; };
 		71B902BD2C908E8C00CBB741 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B902BC2C908E8C00CBB741 /* Preview Assets.xcassets */; };
-		9E8A446543CD11AA1571855C /* Pods_Tempus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08E21D6FBDDB7A440B789A6 /* Pods_Tempus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		168B215B533930E0748E57CB /* Pods-Tempus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus.debug.xcconfig"; path = "Target Support Files/Pods-Tempus/Pods-Tempus.debug.xcconfig"; sourceTree = "<group>"; };
-		434CC0EEC568D316D85BCC9F /* Pods-Tempus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus.release.xcconfig"; path = "Target Support Files/Pods-Tempus/Pods-Tempus.release.xcconfig"; sourceTree = "<group>"; };
+		1EC4F95C5D8E3A43731DE484 /* Pods-Tempus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus.release.xcconfig"; path = "Target Support Files/Pods-Tempus/Pods-Tempus.release.xcconfig"; sourceTree = "<group>"; };
+		2E46072FC61347696DA64E56 /* Pods-Tempus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus.debug.xcconfig"; path = "Target Support Files/Pods-Tempus/Pods-Tempus.debug.xcconfig"; sourceTree = "<group>"; };
 		715373F02CDD0AC800AE431C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		71B902B22C908E8B00CBB741 /* Tempus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B902B52C908E8B00CBB741 /* TempusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempusApp.swift; sourceTree = "<group>"; };
 		71B902B72C908E8B00CBB741 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71B902B92C908E8C00CBB741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B902BC2C908E8C00CBB741 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C08E21D6FBDDB7A440B789A6 /* Pods_Tempus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tempus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87E7979526612DF7A8F14DB /* Pods_Tempus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tempus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		71EE88332CE24940004FE0BE /* Core */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Core; sourceTree = "<group>"; };
-		71EE88342CE2494C004FE0BE /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
-		71EE88352CE24962004FE0BE /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		718EE4FA2CF350CA00B4FE0B /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		718EE4FB2CF350D300B4FE0B /* Extenstions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extenstions; sourceTree = "<group>"; };
+		718EE4FC2CF350DA00B4FE0B /* New Folder */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "New Folder"; sourceTree = "<group>"; };
+		718EE4FD2CF350DF00B4FE0B /* Core */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Core; sourceTree = "<group>"; };
+		718EE4FE2CF3516700B4FE0B /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
 		71EE88382CE249FA004FE0BE /* Presentation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Presentation; sourceTree = "<group>"; };
 		71EE88392CE24A04004FE0BE /* Domain */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Domain; sourceTree = "<group>"; };
 		71EE883A2CE24A09004FE0BE /* Data */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Data; sourceTree = "<group>"; };
@@ -40,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8A446543CD11AA1571855C /* Pods_Tempus.framework in Frameworks */,
+				34E9524B6FAA3B04002D2A98 /* Pods_Tempus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +52,8 @@
 		224E107329B4544A997C9D09 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				168B215B533930E0748E57CB /* Pods-Tempus.debug.xcconfig */,
-				434CC0EEC568D316D85BCC9F /* Pods-Tempus.release.xcconfig */,
+				2E46072FC61347696DA64E56 /* Pods-Tempus.debug.xcconfig */,
+				1EC4F95C5D8E3A43731DE484 /* Pods-Tempus.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -60,10 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				715373F02CDD0AC800AE431C /* .swiftlint.yml */,
+				718EE4FC2CF350DA00B4FE0B /* New Folder */,
 				71B902B42C908E8B00CBB741 /* Tempus */,
 				71B902B32C908E8B00CBB741 /* Products */,
 				224E107329B4544A997C9D09 /* Pods */,
-				D07CFCCE3E1C2A1FF6B8D8CD /* Frameworks */,
+				E1E0C26B97C25400597D7558 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,12 +81,13 @@
 		71B902B42C908E8B00CBB741 /* Tempus */ = {
 			isa = PBXGroup;
 			children = (
+				718EE4FE2CF3516700B4FE0B /* Components */,
+				718EE4FD2CF350DF00B4FE0B /* Core */,
+				718EE4FB2CF350D300B4FE0B /* Extenstions */,
+				718EE4FA2CF350CA00B4FE0B /* Resources */,
 				71EE883A2CE24A09004FE0BE /* Data */,
 				71EE88392CE24A04004FE0BE /* Domain */,
 				71EE88382CE249FA004FE0BE /* Presentation */,
-				71EE88352CE24962004FE0BE /* Resources */,
-				71EE88342CE2494C004FE0BE /* Extensions */,
-				71EE88332CE24940004FE0BE /* Core */,
 				71B902B52C908E8B00CBB741 /* TempusApp.swift */,
 				71B902B72C908E8B00CBB741 /* ContentView.swift */,
 				71B902B92C908E8C00CBB741 /* Assets.xcassets */,
@@ -100,10 +104,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D07CFCCE3E1C2A1FF6B8D8CD /* Frameworks */ = {
+		E1E0C26B97C25400597D7558 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C08E21D6FBDDB7A440B789A6 /* Pods_Tempus.framework */,
+				D87E7979526612DF7A8F14DB /* Pods_Tempus.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +119,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71B902C02C908E8C00CBB741 /* Build configuration list for PBXNativeTarget "Tempus" */;
 			buildPhases = (
+				81E20F84702F51C46B100D38 /* [CP] Check Pods Manifest.lock */,
 				715373EF2CDD0A6A00AE431C /* SwiftLint */,
-				7B1B5DD1E1C8C11584BBF5AA /* [CP] Check Pods Manifest.lock */,
 				71B902AE2C908E8B00CBB741 /* Sources */,
 				71B902AF2C908E8B00CBB741 /* Frameworks */,
 				71B902B02C908E8B00CBB741 /* Resources */,
@@ -126,9 +130,10 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				71EE88332CE24940004FE0BE /* Core */,
-				71EE88342CE2494C004FE0BE /* Extensions */,
-				71EE88352CE24962004FE0BE /* Resources */,
+				718EE4FA2CF350CA00B4FE0B /* Resources */,
+				718EE4FB2CF350D300B4FE0B /* Extenstions */,
+				718EE4FD2CF350DF00B4FE0B /* Core */,
+				718EE4FE2CF3516700B4FE0B /* Components */,
 				71EE88382CE249FA004FE0BE /* Presentation */,
 				71EE88392CE24A04004FE0BE /* Domain */,
 				71EE883A2CE24A09004FE0BE /* Data */,
@@ -203,7 +208,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		7B1B5DD1E1C8C11584BBF5AA /* [CP] Check Pods Manifest.lock */ = {
+		81E20F84702F51C46B100D38 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,7 +366,7 @@
 		};
 		71B902C12C908E8C00CBB741 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 168B215B533930E0748E57CB /* Pods-Tempus.debug.xcconfig */;
+			baseConfigurationReference = 2E46072FC61347696DA64E56 /* Pods-Tempus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,7 +398,7 @@
 		};
 		71B902C22C908E8C00CBB741 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 434CC0EEC568D316D85BCC9F /* Pods-Tempus.release.xcconfig */;
+			baseConfigurationReference = 1EC4F95C5D8E3A43731DE484 /* Pods-Tempus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
